@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body {
+    background-image: url("../afbeeldingen/achtergrond_website.jpg");
+    background-size: contain;
+}
+
 .grid {
     display: grid;
 }
@@ -14,22 +19,24 @@
     "sidebar main"
     "footer footer";
     grid-template-columns: 200px 1fr;
-    grid-gap: 15px;
+    grid-template-rows: 120px 1fr 100px;
+    grid-gap: 20px;
     min-height: 100vh;
-    padding: 15px;
+    padding: 20px;
 }
 
 .header {
     grid-area: header;
-    grid-gap: 15px;
+    grid-gap: 20px;
     grid-template-areas:
     "logo nav";
     grid-template-columns: 200px 1fr;
-    height: 120px;
 }
 
 .logo {
-    background: gray;
+    background-image: url("../../documentatie/men_at_work_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
     grid-area: logo;
 }
 
@@ -41,7 +48,6 @@
 .sidebar {
     background: orange;
     grid-area: sidebar;
-    min-height: 80vh;
 }
 
 .main {
@@ -51,7 +57,6 @@
 
 .footer {
     background: green;
-    height: 100px;
     grid-area: footer;
 }
 
