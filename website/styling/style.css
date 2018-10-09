@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-    background-image: url("../../documentatie/men_at_work_logo.png");
+    background-image: url("../../documentatie/afbeeldingen/men_at_work_logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     grid-area: logo;
