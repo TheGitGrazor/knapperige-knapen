@@ -144,6 +144,11 @@ form.cntct {
     width: 50%;
 }
 
+.text {
+	background: #FFFF00;
+	grid-area: main;
+}
+
 .zl {
 	background-color: #000000;
 	grid-area: main;
