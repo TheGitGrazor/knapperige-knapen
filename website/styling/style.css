@@ -15,6 +15,15 @@ body {
     justify-items: center;
 }
 
+.center-self {
+    align-self: center;
+    justify-self: center;
+}
+
+.horizontal-center-self {
+    justify-self: center;
+}
+
 .grid {
     display: grid;
 }
@@ -94,6 +103,39 @@ form.cntct {
 	width: 50%;
 }
 
+.login-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.login {
+    grid-template-rows: 70px 1fr;
+    height: 300px;
+    width: 30%;
+}
+
+.login-header {
+    background: #666666;
+}
+
+.login-title {
+    color: white;
+    font-size: 40px;
+}
+
+.login-body {
+    background: white;
+    padding: 30px;
+}
+
+.login-layout {
+    width: 85%;
+}
+
+.login-td {
+    padding: 5px;
+    width: 50%;
+}
 
 
 

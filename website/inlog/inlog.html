@@ -8,28 +8,29 @@
     <title>Layout</title>
 </head>
 <body>
-<div class="grid layout">
-    <div class="grid header">
-        <div class="logo">
-
+    <div class="grid login-wrapper">
+        <div class="grid center-self login">
+            <div class="grid login-header">
+                <span class="grid center-self login-title">
+                    Login
+                </span>
+            </div>
+            <div class="grid login-body">
+                <table class="login-layout grid horizontal-center-self">
+                    <tr>
+                        <td class="login-td">Gebruikersnaam</td>
+                        <td class="login-td"><input type="text" name="username" id="username"></td>
+                    </tr>
+                    <tr>
+                        <td class="login-td">Wachtwoord</td>
+                        <td class="login-td"><input type="text" name="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="login-td"><button>Login</button></td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div class="nav grid">
-            <a href="" class="nav-item grid center"><span>Home</span></a>
-            <a href="" class="nav-item grid center"><span>Vacature</span></a>
-            <a href="" class="nav-item grid center"><span>Blog</span></a>
-            <a href="" class="nav-item grid center"><span>Contact</span></a>
-            <a href="" class="nav-item grid center"><span>Login</span></a>
-        </div>
     </div>
-    <div class="sidebar">
-        Sidebar
-    </div>
-    <div class="main">
-        Main
-    </div>
-    <div class="footer">
-        Footer
-    </div>
-</div>
 </body>
 </html>
