@@ -78,12 +78,6 @@ body {
     grid-area: main;
 }
 
-.indexTekst{
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 20px;
-}
-
 .footer {
     background: green;
     grid-area: footer;
@@ -93,6 +87,11 @@ body {
     height: 100vh;
     position: absolute;
     width: 100%;
+}
+
+form.cntct { 
+	margin: 0 auto;
+	width: 50%;
 }
 
 
