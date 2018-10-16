@@ -87,9 +87,15 @@ body {
     grid-area: main;
 }
 
+.indexTekst{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .footer {
     background: green;
     grid-area: footer;
+    grid-template-columns: 1fr 1fr;
 }
 
 .FooterLogo{
@@ -97,6 +103,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
+
 }
 
 .login-wrapper {
