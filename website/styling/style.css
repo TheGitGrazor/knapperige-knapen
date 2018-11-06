@@ -174,4 +174,12 @@ form.cntct {
     background-color: #666666;
 }
 
+.vacatureTekst{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 
