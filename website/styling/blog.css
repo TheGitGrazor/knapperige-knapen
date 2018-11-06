@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../afbeeldingen/achtergrond_website.jpg");
+    background-size: cover;
+}
+
+.center {
+    align-items: center;
+    justify-items: center;
+}
+
+.center-self {
+    align-self: center;
+    justify-self: center;
+}
+
+.horizontal-center-self {
+    justify-self: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.layout {
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 120px 1fr 100px;
+    grid-gap: 20px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+    grid-gap: 20px;
+    grid-template-areas:
+    "logo nav";
+    grid-template-columns: 200px 1fr;
+}
+
+.logo {
+    background-image: url("../../documentatie/afbeeldingen/men_at_work_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: logo;
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+}
+
+.nav {
+    background: rgb(255,255,255, 0.6);
+    grid-area: nav;
+    grid-template-columns: repeat(5, 1fr);
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+}
+
+.nav-item {
+    background: rgb(255,255,255, 0.0);
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav-item:hover {
+    background: rgb(255,255,255, 0.2);
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+}
+
+.nav-item > span {
+    color: black;
+    font-size: 30px;
+}
+
+.sidebar {
+    background: rgb(255,255,255, 0.6);
+    grid-area: sidebar;
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+}
+
+.main {
+    background-color: rgb(255,255,255, 0.6);
+    grid-area: main;
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+    
+}
+
+.indexTekst{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    background: rgb(255,255,255, 0.6);;
+    grid-area: footer;
+    grid-template-columns: 1fr 1fr;
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+}
+
+.FooterLogo{
+    background-image: url("../../documentatie/afbeeldingen/men_at_work_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    border: 2px rgb(255,255,255, 0.6);
+    border-radius: 25px;
+
+}
+
+.login-wrapper {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+form.cntct { 
+	margin: 0 auto;
+	width: 50%;
+}
+
+.login-wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.login {
+    grid-template-rows: 70px 1fr;
+    height: 300px;
+    width: 30%;
+}
+
+.login-header {
+    background: #666666;
+}
+
+.login-title {
+    color: white;
+    font-size: 40px;
+}
+
+.login-body {
+    background: white;
+    padding: 30px;
+}
+
+.login-layout {
+    width: 85%;
+}
+
+.login-td {
+    padding: 5px;
+    width: 50%;
+}
+
+
+.zl {
+	background-color: rgb(0,0,0, 0.3);
+	grid-area: main;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button-black {
+    background-color: #666666;
+}
+
+.vacatureTekst{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.blogTekst{
+    border: 2px solid black;
+    border-radius: 5px;
+}
