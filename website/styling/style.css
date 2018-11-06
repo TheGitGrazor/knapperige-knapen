@@ -56,20 +56,20 @@ body {
 }
 
 .nav {
-    background: red;
+    background: rgb(255,255,255, 0.7);
     grid-area: nav;
     grid-template-columns: repeat(5, 1fr);
 }
 
 .nav-item {
-    background: #a6a6a6;
+    background: rgb(255,255,255, 0.0);
     height: 100%;
     text-decoration: none;
     width: 100%;
 }
 
 .nav-item:hover {
-    background: #999999;
+    background: rgb(255,255,255, 0.7);
 }
 
 .nav-item > span {
@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar {
-    background: orange;
+    background: rgb(255,255,255, 0.7);
     grid-area: sidebar;
 }
 
