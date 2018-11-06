@@ -53,15 +53,15 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     grid-area: logo;
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 }
 
 .nav {
-    background: rgb(255,255,255, 0.7);
+    background: rgb(255,255,255, 0.6);
     grid-area: nav;
     grid-template-columns: repeat(5, 1fr);
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .nav-item:hover {
     background: rgb(255,255,255, 0.2);
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 }
 
@@ -84,16 +84,16 @@ body {
 }
 
 .sidebar {
-    background: rgb(255,255,255, 0.7);
+    background: rgb(255,255,255, 0.6);
     grid-area: sidebar;
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 }
 
 .main {
-    background-color: rgb(255,255,255, 0.7);
+    background-color: rgb(255,255,255, 0.6);
     grid-area: main;
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
     
 }
@@ -104,10 +104,10 @@ body {
 }
 
 .footer {
-    background: rgb(255,255,255, 0.7);;
+    background: rgb(255,255,255, 0.6);;
     grid-area: footer;
     grid-template-columns: 1fr 1fr;
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 }
 
@@ -116,7 +116,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
-    border: 2px rgb(255,255,255, 0.7);
+    border: 2px rgb(255,255,255, 0.6);
     border-radius: 25px;
 
 }
