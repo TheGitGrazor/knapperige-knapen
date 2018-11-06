@@ -130,6 +130,26 @@ body {
 form.cntct { 
 	margin: 0 auto;
 	width: 50%;
+	background-color: #ffc638;
+}
+
+.bg-black{
+	background-color: #000000;
+}
+
+.contact-knop{
+	 margin: 0 auto; 
+	 display: block; 
+	 width: 50%; 
+	 border-radius: 10px; 
+	 border: none; 
+	 padding: 10px 20px; 
+	 color: aliceblue; 
+	 background-color: #000000;
+	 color: #ffc638;
+	 align-self:middle;
+	 text-align:center;
+	
 }
 
 .login-wrapper {
@@ -166,6 +186,10 @@ form.cntct {
     width: 50%;
 }
 
+.text {
+	background: #FFFF00;
+	grid-area: main;
+}
 
 .zl {
 	background-color: rgb(0,0,0, 0.3);
